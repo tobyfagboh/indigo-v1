@@ -1,6 +1,8 @@
 com\w2a\utilities\TestConfig.class
-TestPackage\test01.class
+com\w2a\testcase\logintest04.class
+com\w2a\testcase\SaleLogin.class
 com\w2a\utilities\Constants.class
+com\w2a\testcase\FrontDeskTest.class
 com\w2a\utilities\MonitoringMail$SMTPAuthenticator.class
 com\w2a\utilities\MonitoringMail$1.class
 com\w2a\utilities\ExtentManager.class
@@ -9,7 +11,6 @@ com\w2a\utilities\ExcelReader.class
 com\w2a\rough\TestTimeStamp.class
 com\w2a\listeners\CustomListeners.class
 com\w2a\rough\TestProperties.class
-com\w2a\testcase\LoginTest.class
 com\w2a\rough\TestHostAdd.class
 com\w2a\utilities\DataUtil.class
 com\w2a\utilities\MonitoringMail.class

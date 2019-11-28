@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.w2a.testcase.FrontDesk">
+      <class name="com.w2a.testcase.logintest04">
         <methods>
+          <include name="validlogin"/>
           <include name="setUp"/>
-          <include name="InvalidLogin"/>
-          <include name="validkLogin"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.w2a.testcase.FrontDesk -->
+      </class> <!-- com.w2a.testcase.logintest04 -->
+      <class name="com.w2a.testcase.SaleLogin">
+        <methods>
+          <include name="LoginAsSale"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.w2a.testcase.SaleLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
