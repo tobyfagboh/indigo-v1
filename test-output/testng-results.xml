@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1381" started-at="2019-12-16T10:07:33 WAT" finished-at="2019-12-16T10:07:34 WAT">
+  <suite name="Default suite" duration-ms="54950" started-at="2019-12-24T10:41:19 WAT" finished-at="2019-12-24T10:42:14 WAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1381" started-at="2019-12-16T10:07:33 WAT" finished-at="2019-12-16T10:07:34 WAT">
-      <class name="com.w2a.testcase.invalidlogintest06">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcase.invalidlogintest06@1349883]" name="setUp" is-config="true" duration-ms="30208" started-at="2019-12-16T10:07:03 WAT" finished-at="2019-12-16T10:07:33 WAT">
+    <test name="Default test" duration-ms="54950" started-at="2019-12-24T10:41:19 WAT" finished-at="2019-12-24T10:42:14 WAT">
+      <class name="com.w2a.testcase.invalidEmailRightPassword11">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcase.invalidEmailRightPassword11@1349883]" name="setUp" is-config="true" duration-ms="292684" started-at="2019-12-24T10:36:26 WAT" finished-at="2019-12-24T10:41:19 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="invalidlogin()[pri:0, instance:com.w2a.testcase.invalidlogintest06@1349883]" name="invalidlogin" duration-ms="1330" started-at="2019-12-16T10:07:33 WAT" finished-at="2019-12-16T10:07:34 WAT">
+        <test-method status="PASS" signature="invalidlogin()[pri:0, instance:com.w2a.testcase.invalidEmailRightPassword11@1349883]" name="invalidlogin" duration-ms="54877" started-at="2019-12-24T10:41:19 WAT" finished-at="2019-12-24T10:42:14 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidlogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcase.invalidlogintest06@1349883]" name="tearDown" is-config="true" duration-ms="798" started-at="2019-12-16T10:07:34 WAT" finished-at="2019-12-16T10:07:35 WAT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcase.invalidEmailRightPassword11@1349883]" name="tearDown" is-config="true" duration-ms="794" started-at="2019-12-24T10:42:14 WAT" finished-at="2019-12-24T10:42:15 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.w2a.testcase.invalidlogintest06 -->
+      </class> <!-- com.w2a.testcase.invalidEmailRightPassword11 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
