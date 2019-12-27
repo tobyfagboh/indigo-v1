@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.w2a.testcase.invalidlogintest06">
+      <class name="com.w2a.testcase.invalidEmailinvalidtPassword13">
         <methods>
           <include name="setUp"/>
-          <include name="invalidlogin"/>
           <include name="tearDown"/>
+          <include name="invalidlogin"/>
         </methods>
-      </class> <!-- com.w2a.testcase.invalidlogintest06 -->
+      </class> <!-- com.w2a.testcase.invalidEmailinvalidtPassword13 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
