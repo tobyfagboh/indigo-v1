@@ -10,13 +10,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.w2a.testcase.logintest04 -->
-      <class name="com.w2a.testcase.SaleLogin">
-        <methods>
-          <include name="LoginAsSale"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.w2a.testcase.SaleLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
