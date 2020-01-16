@@ -13,7 +13,7 @@ public class dropDown22 extends TestBase {
 		driver.findElement(By.xpath(OR.getProperty("password22_XPATH"))).sendKeys(OR.getProperty("passwordTxt07"));
 		driver.findElement(By.xpath(OR.getProperty("loginBtn22_XPATH"))).click();	
 		driver.findElement(By.xpath(OR.getProperty("DropDownBtn_XPATH"))).click();
-		driver.findElement(By.xpath(OR.getProperty("Type1Hosp_XPATH"))).click();
+		driver.findElement(By.xpath(OR.getProperty("Type2Hosp_XPATH"))).click();
 		Thread.sleep(3000);
 	}
 }
